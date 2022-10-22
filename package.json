@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Grid Testimonials Section",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Frontend-Mentor-Projects-Daniel/grid-testimonials-section.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Frontend-Mentor-Projects-Daniel/grid-testimonials-section/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Frontend-Mentor-Projects-Daniel/grid-testimonials-section#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.17",
