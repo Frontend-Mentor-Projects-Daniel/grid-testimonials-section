@@ -1,0 +1,36 @@
+.testimonials {
+  &__cards {
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 1.125rem;
+
+      padding: 2rem;
+      padding-top: 1.625rem;
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 1.0625rem;
+
+        .frame {
+          border: 2px solid #a775f1;
+          border-radius: 50%;
+          height: 28px;
+          width: 28px;
+        }
+
+        .name {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .text {
+        blockquote {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
