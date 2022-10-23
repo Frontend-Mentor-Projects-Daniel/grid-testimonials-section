@@ -1,0 +1,31 @@
+:root {
+  // COLOURS
+  // card bodies
+  --clr-dark-orchid: 263, 55%, 52%;
+  --clr-dusk: 217, 19%, 35%;
+  --clr-white: 0, 0%, 100%;
+  --clr-dark: 219, 29%, 14%;
+
+  // blockquote headers
+  --clr-dark-gray: 217, 19%, 35%;
+  --clr-light-gray: 210, 46%, 95%;
+
+  // blockquote quote
+  --clr-medium-gray: 0, 0%, 81%;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+q {
+  font-size: 0.8125rem;
+}
+
+span.name {
+  font-size: 0.8125rem;
+}
+
+span.title {
+  font-size: 0.6875rem;
+}
