@@ -38,6 +38,13 @@
         }
       }
     }
+
+    .card--1 {
+      background-image: url('../assets/images/bg-pattern-quotation.svg');
+      background-repeat: no-repeat;
+      background-size: 102px 104px;
+      background-position: top right 26%;
+    }
   }
 
   @include breakpoint(tablet) {
@@ -52,6 +59,8 @@
 
         .card--1 {
           grid-area: daniel;
+
+          background-position: top right 17%;
         }
 
         .card--2 {
