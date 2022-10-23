@@ -1,5 +1,11 @@
+@use '../mixins/breakpoints' as *;
+
 .testimonials {
   &__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+
     .card {
       display: flex;
       flex-direction: column;
@@ -29,6 +35,39 @@
         blockquote {
           display: flex;
           flex-direction: column;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(tablet) {
+    & {
+      &__cards {
+        grid-template-columns: repeat(4, minmax(0, 277.5px));
+        grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+        column-gap: 1.875rem;
+        grid-template-areas:
+          'daniel daniel jonathan kira'
+          'jeanette patrick patrick kira';
+
+        .card--1 {
+          grid-area: daniel;
+        }
+
+        .card--2 {
+          grid-area: jonathan;
+        }
+
+        .card--3 {
+          grid-area: jeanette;
+        }
+
+        .card--4 {
+          grid-area: patrick;
+        }
+
+        .card--5 {
+          grid-area: kira;
         }
       }
     }

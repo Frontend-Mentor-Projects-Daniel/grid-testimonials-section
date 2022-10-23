@@ -1,5 +1,11 @@
 .center {
+  --measure: 90rem;
+
   box-sizing: content-box;
   margin-inline: auto;
   max-inline-size: var(--measure);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
